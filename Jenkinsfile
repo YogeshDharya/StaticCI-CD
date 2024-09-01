@@ -2,7 +2,7 @@ pipeline{
     agent any 
     environment{
         DOCKERHUB_CREDENTIALS= 
-        SECOND_EC2_SSH_CREDENTIALS=
+        SECOND_EC2_SSH_CREDENTIALS=env.SSHkEY 
     }
     stages {
         stage("Load Environment Variables"){
