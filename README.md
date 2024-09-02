@@ -1,1 +1,1 @@
-# StaticCI-CD
+# Tripster 
